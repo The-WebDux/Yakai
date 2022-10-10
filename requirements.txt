@@ -1,0 +1,6 @@
+termcolor
+os
+requests
+sys
+time
+wafw00f
