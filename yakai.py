@@ -35,15 +35,13 @@ def menu(clear=0):
 		print(colored("network vulns", "red"), "- ქსელის სკანირება მოწყვლადობებზე")
 		print(colored("cms", "red"), "- სერვერის ძრავის სკანირება")
 		print(colored("waf", "red"), "- ფაიერვოლის სკანირება")
-		# print(colored("cloudfail", "red"), "- სერვერის რეალური აიპის გაგება")
 		print(colored("subdomains", "red"), "- ქვედომენების სკანირება")
 		print(colored("directory", "red"), "- დამალული ფაილებისა და დირექტორიების ძიება")
 		print("") # Seperator for system commands
 		print(colored("recon", "red"), "- ზოგადი დაზვერვა")
 		print("") # Seperator for system commands
 		print(colored("help", "red"), "- ბრძანებების ინსტრუქციის ნახვა")
-		print(colored("	", "red"), "- ტერმინალის გასუფთავება")
-		# print(colored("tor", "red"), "- ტრაფიკის ტორის ქსელში გადაყვანა")
+		print(colored("clear", "red"), "- ტერმინალის გასუფთავება")
 		print(colored("exit", "red"), "- პროგრამიდან გასვლა")
 
 	terminal()
