@@ -38,13 +38,6 @@ def menu(clear=0):
 		# print(colored("cloudfail", "red"), "- სერვერის რეალური აიპის გაგება")
 		print(colored("subdomains", "red"), "- ქვედომენების სკანირება")
 		print(colored("directory", "red"), "- დამალული ფაილებისა და დირექტორიების ძიება")
-		# print(colored("sqli", "red"), "- SQL ინექციაზე სკანირება")
-		# print(colored("xss", "red"), "- Cross Site Scripting სკანირება")
-		# print(colored("lfi", "red"), "- Local File Inclusion სკანირება")
-		# print(colored("rce", "red"), "- Remote Code Execution სკანირება")
-		# print(colored("dos", "red"), "- Denial Of Service")
-		# print(colored("install modules", "red"), "- მოდულების ინსტალაცია")
-		# print(colored("fullscan", "red"), "- მთლიანი სკანირება")
 		print("") # Seperator for system commands
 		print(colored("recon", "red"), "- ზოგადი დაზვერვა")
 		print("") # Seperator for system commands
@@ -58,8 +51,6 @@ def menu(clear=0):
 def setTarget():
 	global target
 	global protocol
-	# შეამოწმე სწორად წერს თუ არა თარგეთს
-	# whichProtocol = input(colored("[?] აირჩიე პროტოკოლი http თუ https (1/2): ", "red"))
 	print(colored("[?] აირჩიე პროტოკოლი", "green"), colored("http", "red"), colored("თუ", "green"), colored("https", "red"), colored("(1/2)", "green"), end="")
 	whichProtocol = input(": ")
 	if whichProtocol == "1":
@@ -75,8 +66,6 @@ def terminal(command=0):
 	global protocol
 	global getMenu
 	global fromCommand
-	# global target
-	# global protocol
 
 	if command == "clear":
 		os.system("cls" if os.name == "nt" else "clear")
