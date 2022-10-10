@@ -3,6 +3,8 @@
   <img src="https://github.com/vakh0/Screenshots/blob/main/Yakai/Yakai.png">
 </p>
 <hr>
+ვერსია 0.7
+
 
 # აღწერა
 
