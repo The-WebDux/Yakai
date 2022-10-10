@@ -124,7 +124,7 @@ def terminal(command=0):
 				terminal()
 		case "recon":
 			try:
-				scans.headers(protocol.target)
+				scans.headers(protocol,target)
 				scans.dnsScan(target)
 				scans.network(target)
 				scans.networkVulns(target)
