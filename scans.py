@@ -17,10 +17,13 @@ def headers(protocol, target):
 
 def dnsScan(target):
 	try:
-		r = requests.get("https://api.hackertarget.com/dnslookup/?q=ge.movie")
-		print(colored("|=========[","yellow"), colored("DNS ჩანაწერები","red") , colored("]=========|","yellow"))
-		print(r.text)
-		print(colored("____________________________","red"),"\n")
+        	r = requests.get("https://api.hackertarget.com/dnslookup/?q=" + target)
+		if r.text == "error input invalid - enter IP or Hostname":
+        		print(colored("[შეცდომა] ვერ ვუკავშირდები სერვერს! აკრიფე ", "red"), colored("target","yellow"))
+        	else:
+        		print(colored("|=========[","yellow"), colored("DNS ჩანაწერები","red") , colored("]=========|","yellow"))
+        		print(r.text)
+			print(colored("____________________________","red"),"\n")
 	except KeyboardInterrupt:
 		pass
 
