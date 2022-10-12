@@ -48,3 +48,7 @@ $ pip install -r requirements.txt
 $ sudo chmod 777 yakai.py
 $ ./yakai.py
 ```
+
+# სქრინი
+
+![](https://github.com/vakh0/Yakai/blob/main/1.png)
