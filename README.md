@@ -42,9 +42,9 @@
 
 # ინსტალაცია
 ```bash
-$ git clone https://github.com/vakh0/Yakai && cd Yakai && pip install -r requirements.txt
-$ sudo chmod 777 yakai.py
-$ ./yakai.py
+git clone https://github.com/vakh0/Yakai && cd Yakai && pip install -r requirements.txt
+sudo chmod 777 yakai.py
+./yakai.py
 ```
 
 # სქრინი
